@@ -1,0 +1,20 @@
+{
+    "$schema": "https://typeforged.github.io/schema.registry/codex-plugin-marketplace/v1/marketplace.schema.json",
+    "name": "Commandless Marketplace",
+    "plugins": [
+        {
+            "name": "spark",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/github/copilot-plugins.git",
+                "path": "./plugins/spark",
+                "ref": "main"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "Productivity"
+        }
+    ]
+}
