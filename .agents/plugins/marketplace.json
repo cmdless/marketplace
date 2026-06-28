@@ -1,6 +1,6 @@
 {
     "$schema": "https://typeforged.github.io/schema.registry/codex-plugin-marketplace/v1/marketplace.schema.json",
-    "name": "Commandless Marketplace",
+    "name": "cmdless-marketplace",
     "plugins": [
         {
             "name": "spark",
