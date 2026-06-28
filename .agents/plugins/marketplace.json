@@ -28,6 +28,104 @@
                 "authentication": "ON_INSTALL"
             },
             "category": "cmdless"
+        },
+        {
+            "name": "dotnet-aspnetcore",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/dotnet/skills.git",
+                "path": "./plugins/dotnet-aspnetcore",
+                "ref": "main"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "cmdless"
+        },
+        {
+            "name": "dotnet-blazor",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/dotnet/skills.git",
+                "path": "./plugins/dotnet-blazor",
+                "ref": "main"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "cmdless"
+        },
+        {
+            "name": "dotnet-data",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/dotnet/skills.git",
+                "path": "./plugins/dotnet-data",
+                "ref": "main"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "cmdless"
+        },
+        {
+            "name": "dotnet-diag",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/dotnet/skills.git",
+                "path": "./plugins/dotnet-diag",
+                "ref": "main"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "cmdless"
+        },
+        {
+            "name": "dotnet-maui",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/dotnet/skills.git",
+                "path": "./plugins/dotnet-maui",
+                "ref": "main"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "cmdless"
+        },
+        {
+            "name": "dotnet-upgrade",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/dotnet/skills.git",
+                "path": "./plugins/dotnet-upgrade",
+                "ref": "main"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "cmdless"
+        },
+        {
+            "name": "dotnet",
+            "source": {
+                "source": "git-subdir",
+                "url": "https://github.com/dotnet/skills.git",
+                "path": "./plugins/dotnet",
+                "ref": "main"
+            },
+            "policy": {
+                "installation": "AVAILABLE",
+                "authentication": "ON_INSTALL"
+            },
+            "category": "cmdless"
         }
     ]
 }
